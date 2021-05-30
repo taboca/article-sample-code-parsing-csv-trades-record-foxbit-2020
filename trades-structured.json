@@ -1,0 +1,250 @@
+[
+  {
+    "in": {
+      "csvLineTradeTmp1": "03/09/2020 16:44:26,Trade,BTC,\"0,08673929\",\"0,00000000\",\"0,08706877\",\"Preço do Ativo: R$ 57625,57\"",
+      "csvLineTradeTmp2": "03/09/2020 16:44:26,Trade,BRL,\"-4998,40000000\",\"0,00000000\",\"8,06000000\",\"Preço do Ativo: R$ 57625,57\"",
+      "csvLineTradeTmp1Instrument": "BTC",
+      "csvLineTradeTmp2Instrument": "BRL",
+      "csvLineFee": "03/09/2020 16:44:26,Comissão no Trade,BTC,\"0,00000000\",\"-0,00043370\",\"0,08663507\","
+    },
+    "out": {
+      "from": {
+        "datetime": "03/09/2020 16:44:26",
+        "instrument": "BRL",
+        "amount": "-4998.40000000",
+        "balance": "8.06000000",
+        "price": "57625.57"
+      },
+      "to": {
+        "datetime": "03/09/2020 16:44:26",
+        "instrument": "BTC",
+        "amount": "0.08673929",
+        "balance": "0.08706877",
+        "price": "57625.57"
+      },
+      "fee": {
+        "datetime": "03/09/2020 16:44:26",
+        "instrument": "BTC",
+        "amount": "-0,00043370",
+        "balance": "0,08663507"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "16/09/2020 17:01:09,Trade,BTC,\"0,08562879\",\"0,00000000\",\"0,17226386\",\"Preço do Ativo: R$ 58484,98\"",
+      "csvLineTradeTmp2": "16/09/2020 17:01:09,Trade,BRL,\"-5008,00000000\",\"0,00000000\",\"0,06000000\",\"Preço do Ativo: R$ 58484,98\"",
+      "csvLineTradeTmp1Instrument": "BTC",
+      "csvLineTradeTmp2Instrument": "BRL",
+      "csvLineFee": "16/09/2020 17:01:09,Comissão no Trade,BTC,\"0,00000000\",\"-0,00042814\",\"0,17183572\","
+    },
+    "out": {
+      "from": {
+        "datetime": "16/09/2020 17:01:09",
+        "instrument": "BRL",
+        "amount": "-5008.00000000",
+        "balance": "0.06000000",
+        "price": "58484.98"
+      },
+      "to": {
+        "datetime": "16/09/2020 17:01:09",
+        "instrument": "BTC",
+        "amount": "0.08562879",
+        "balance": "0.17226386",
+        "price": "58484.98"
+      },
+      "fee": {
+        "datetime": "16/09/2020 17:01:09",
+        "instrument": "BTC",
+        "amount": "-0,00042814",
+        "balance": "0,17183572"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "21/09/2020 15:04:06,Trade,BTC,\"0,08804697\",\"0,00000000\",\"0,25988269\",\"Preço do Ativo: R$ 56775,99\"",
+      "csvLineTradeTmp2": "21/09/2020 15:04:06,Trade,BRL,\"-4998,95000000\",\"0,00000000\",\"1,11000000\",\"Preço do Ativo: R$ 56775,99\"",
+      "csvLineTradeTmp1Instrument": "BTC",
+      "csvLineTradeTmp2Instrument": "BRL",
+      "csvLineFee": "21/09/2020 15:04:06,Comissão no Trade,BTC,\"0,00000000\",\"-0,00044023\",\"0,25944245\","
+    },
+    "out": {
+      "from": {
+        "datetime": "21/09/2020 15:04:06",
+        "instrument": "BRL",
+        "amount": "-4998.95000000",
+        "balance": "1.11000000",
+        "price": "56775.99"
+      },
+      "to": {
+        "datetime": "21/09/2020 15:04:06",
+        "instrument": "BTC",
+        "amount": "0.08804697",
+        "balance": "0.25988269",
+        "price": "56775.99"
+      },
+      "fee": {
+        "datetime": "21/09/2020 15:04:06",
+        "instrument": "BTC",
+        "amount": "-0,00044023",
+        "balance": "0,25944245"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "24/09/2020 15:25:29,Trade,BRL,\"1318,22000000\",\"0,00000000\",\"6319,32000000\",\"Preço do Ativo: R$ 58958,32\"",
+      "csvLineTradeTmp2": "24/09/2020 15:25:29,Trade,BTC,\"-0,02235847\",\"0,00000000\",\"0,23708398\",\"Preço do Ativo: R$ 58958,32\"",
+      "csvLineTradeTmp1Instrument": "BRL",
+      "csvLineTradeTmp2Instrument": "BTC",
+      "csvLineFee": "24/09/2020 15:25:29,Comissão no Trade,BRL,\"0,00000000\",\"-6,59000000\",\"6312,73000000\","
+    },
+    "out": {
+      "from": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BTC",
+        "amount": "-0.02235847",
+        "balance": "0.23708398",
+        "price": "58958.32"
+      },
+      "to": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BRL",
+        "amount": "1318.22000000",
+        "balance": "6319.32000000",
+        "price": "58958.32"
+      },
+      "fee": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BRL",
+        "amount": "-6,59000000",
+        "balance": "6312,73000000"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "24/09/2020 15:25:29,Trade,BRL,\"4827,28000000\",\"0,00000000\",\"11140,02000000\",\"Preço do Ativo: R$ 58941,18\"",
+      "csvLineTradeTmp2": "24/09/2020 15:25:29,Trade,BTC,\"-0,08190000\",\"0,00000000\",\"0,15518398\",\"Preço do Ativo: R$ 58941,18\"",
+      "csvLineTradeTmp1Instrument": "BRL",
+      "csvLineTradeTmp2Instrument": "BTC",
+      "csvLineFee": "24/09/2020 15:25:29,Comissão no Trade,BRL,\"0,00000000\",\"-24,14000000\",\"11115,88000000\","
+    },
+    "out": {
+      "from": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BTC",
+        "amount": "-0.08190000",
+        "balance": "0.15518398",
+        "price": "58941.18"
+      },
+      "to": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BRL",
+        "amount": "4827.28000000",
+        "balance": "11140.02000000",
+        "price": "58941.18"
+      },
+      "fee": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BRL",
+        "amount": "-24,14000000",
+        "balance": "11115,88000000"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "24/09/2020 15:25:29,Trade,BRL,\"9144,89000000\",\"0,00000000\",\"20260,77000000\",\"Preço do Ativo: R$ 58941,10\"",
+      "csvLineTradeTmp2": "24/09/2020 15:25:29,Trade,BTC,\"-0,15515308\",\"0,00000000\",\"0,00003090\",\"Preço do Ativo: R$ 58941,10\"",
+      "csvLineTradeTmp1Instrument": "BRL",
+      "csvLineTradeTmp2Instrument": "BTC",
+      "csvLineFee": "24/09/2020 15:25:29,Comissão no Trade,BRL,\"0,00000000\",\"-45,72000000\",\"20215,05000000\","
+    },
+    "out": {
+      "from": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BTC",
+        "amount": "-0.15515308",
+        "balance": "0.00003090",
+        "price": "58941.10"
+      },
+      "to": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BRL",
+        "amount": "9144.89000000",
+        "balance": "20260.77000000",
+        "price": "58941.10"
+      },
+      "fee": {
+        "datetime": "24/09/2020 15:25:29",
+        "instrument": "BRL",
+        "amount": "-45,72000000",
+        "balance": "20215,05000000"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "25/09/2020 07:36:16,Trade,BRL,\"-7009,11000000\",\"0,00000000\",\"13205,94000000\",\"Preço do Ativo: R$ 58500,00\"",
+      "csvLineTradeTmp2": "25/09/2020 07:36:16,Trade,BTC,\"0,11981376\",\"0,00000000\",\"0,11954513\",\"Preço do Ativo: R$ 58500,00\"",
+      "csvLineTradeTmp1Instrument": "BRL",
+      "csvLineTradeTmp2Instrument": "BTC",
+      "csvLineFee": "25/09/2020 07:36:16,Comissão no Trade,BTC,\"0,00000000\",\"-0,00029953\",\"-0,00026863\","
+    },
+    "out": {
+      "from": {
+        "datetime": "25/09/2020 07:36:16",
+        "instrument": "BRL",
+        "amount": "-7009.11000000",
+        "balance": "13205.94000000",
+        "price": "58500.00"
+      },
+      "to": {
+        "datetime": "25/09/2020 07:36:16",
+        "instrument": "BTC",
+        "amount": "0.11981376",
+        "balance": "0.11954513",
+        "price": "58500.00"
+      },
+      "fee": {
+        "datetime": "25/09/2020 07:36:16",
+        "instrument": "BTC",
+        "amount": "-0,00029953",
+        "balance": "-0,00026863"
+      }
+    }
+  },
+  {
+    "in": {
+      "csvLineTradeTmp1": "25/09/2020 08:48:14,Trade,BTC,\"0,22200000\",\"0,00000000\",\"0,34154513\",\"Preço do Ativo: R$ 59218,30\"",
+      "csvLineTradeTmp2": "25/09/2020 08:48:14,Trade,BRL,\"-13146,46000000\",\"0,00000000\",\"59,48000000\",\"Preço do Ativo: R$ 59218,30\"",
+      "csvLineTradeTmp1Instrument": "BTC",
+      "csvLineTradeTmp2Instrument": "BRL",
+      "csvLineFee": "25/09/2020 08:48:14,Comissão no Trade,BTC,\"0,00000000\",\"-0,00111000\",\"0,34043513\","
+    },
+    "out": {
+      "from": {
+        "datetime": "25/09/2020 08:48:14",
+        "instrument": "BRL",
+        "amount": "-13146.46000000",
+        "balance": "59.48000000",
+        "price": "59218.30"
+      },
+      "to": {
+        "datetime": "25/09/2020 08:48:14",
+        "instrument": "BTC",
+        "amount": "0.22200000",
+        "balance": "0.34154513",
+        "price": "59218.30"
+      },
+      "fee": {
+        "datetime": "25/09/2020 08:48:14",
+        "instrument": "BTC",
+        "amount": "-0,00111000",
+        "balance": "0,34043513"
+      }
+    }
+  }
+]
