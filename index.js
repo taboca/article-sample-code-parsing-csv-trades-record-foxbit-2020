@@ -1,6 +1,5 @@
 const path      = require('path');
 const fs        = require('fs');
-const stringify = require('json-stringify-pretty-compact');
 
 /* 
  Test input sources
@@ -28,7 +27,7 @@ const FILE_INPUT  =  path.join(__dirname, 'src-tests', 'foxbit-v1', 'sample-04.c
 const FILE_OUTPUT =  path.join(__dirname, `trades-structured.json` );
 
 function outFile(data) { 
-  fs.writeFile(FILE_OUTPUT, stringify(data), function(err){
+  fs.writeFile(FILE_OUTPUT, JSON.stringify(data, ' ', 2) , function(err){
     if (err) {
       //res.end();
       throw err;
@@ -164,7 +163,7 @@ function run()  {
             tradeCurrent.out.to =  parseInstrument(tradeCurrent.in.csvLineTradeTmp2);
           }
 
-          let strTemp = stringify(tradeCurrent);
+          let strTemp = JSON.stringify(tradeCurrent, ' ', 2);
           console.log(strTemp);
           //console.log(JSON.parse(strTemp));
           total_trades.push(JSON.parse(strTemp)); 

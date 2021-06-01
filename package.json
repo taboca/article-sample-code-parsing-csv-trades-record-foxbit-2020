@@ -13,8 +13,6 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://bitbucket.org/tabocalabs/taxes#readme",
-  "dependencies": {
-    "json-stringify-pretty-compact": "^3.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
