@@ -1,5 +1,3 @@
-# article-sample-code-parsing-svg-trades-record-foxbit-2020
-
 This sample code is a companion resource associated with the article [Using JavaScript to translate crypto trade records from CSV to JSON](https://medium.com/geekculture/using-javascript-to-translate-crypto-trade-records-from-csv-to-json-6800917adba6) published at Geek Culture. 
 
 ## Credits and work notes
